@@ -9,7 +9,7 @@
 | AutoDL.Art账号 | 200211（金鳞） |
 | 介绍 | 从TXT和Markdown文档里搜索相关原文，支持中英文跨语言检索。 |
 | 服务端口 | 6006 |
-| 启动命令 | bash /root/autodl-e5/start.sh |
+| 本批导出镜像启动命令 | bash /root/autodl-active/run-service.sh |
 | 模型容量 | 约0.47GB；模型及输出预留2GB，依赖另计 |
 | 上游 | https://github.com/microsoft/unilm/tree/master/e5 |
 | 许可 | MIT（E5模型）；Apache-2.0（Transformers） |
