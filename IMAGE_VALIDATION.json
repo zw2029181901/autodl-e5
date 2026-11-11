@@ -1,0 +1,119 @@
+{
+  "prior_standalone_http": {
+    "id": "10-e5-document-search",
+    "name": "E5 文档检索",
+    "status": "passed",
+    "outputs": [
+      "/root/autodl-tmp/cloud-evidence/e5-search-results.json"
+    ],
+    "verification": "Standalone exported environment; Gradio HTTP upload, queue, inference and download",
+    "top_result": [
+      "refund.txt",
+      1,
+      0.9142,
+      "退款规则：购买后七天内可以申请退款。审核后款项会在三到五个工作日到账。"
+    ],
+    "elapsed_seconds": 7.767,
+    "slug": "autodl-e5",
+    "standalone_directory_bytes": 1148815353,
+    "model_revisions": {
+      "main": "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+    },
+    "platform_image_saved": false,
+    "published": false
+  },
+  "system_disk_migration": {
+    "verified_at": "2026-11-12T00:01:53.153237+08:00",
+    "slug": "autodl-e5",
+    "status": "passed",
+    "system_disk_app": "/root/autodl-active",
+    "verification": "Copied model file sizes, contained paths, portable symlinks, pip check, offline model validation and existing HTTP6006 title",
+    "pip_check": "No broken requirements found.",
+    "doctor_output": "Project: 10-e5-document-search\nIMPORT OK gradio 5.49.1\nIMPORT OK torch 2.8.0+cu128\nIMPORT OK transformers 4.57.1\nTORCH 2.8.0+cu128; CUDA runtime 12.8\nGPU unavailable; CPU mode supported\nMODEL OK main: /root/autodl-active/models/main\nHTTP OK: 8 UI components\nThis check does not prove model generation works. Complete the sample in SMOKE_TEST.md.\n",
+    "copied_model_files": [
+      {
+        "path": "models/main/config.json",
+        "bytes": 655
+      },
+      {
+        "path": "models/main/README.md",
+        "bytes": 497538
+      },
+      {
+        "path": "models/main/modules.json",
+        "bytes": 387
+      },
+      {
+        "path": "models/main/sentence_bert_config.json",
+        "bytes": 57
+      },
+      {
+        "path": "models/main/special_tokens_map.json",
+        "bytes": 167
+      },
+      {
+        "path": "models/main/sentencepiece.bpe.model",
+        "bytes": 5069051
+      },
+      {
+        "path": "models/main/tokenizer.json",
+        "bytes": 17082730
+      },
+      {
+        "path": "models/main/tokenizer_config.json",
+        "bytes": 443
+      },
+      {
+        "path": "models/main/model.safetensors",
+        "bytes": 470641600
+      },
+      {
+        "path": "models/main/deployment-manifest.json",
+        "bytes": 3584
+      },
+      {
+        "path": "models/main/1_Pooling/config.json",
+        "bytes": 200
+      },
+      {
+        "path": "models/main/onnx/config.json",
+        "bytes": 653
+      },
+      {
+        "path": "models/main/onnx/special_tokens_map.json",
+        "bytes": 167
+      },
+      {
+        "path": "models/main/onnx/sentencepiece.bpe.model",
+        "bytes": 5069051
+      },
+      {
+        "path": "models/main/onnx/tokenizer_config.json",
+        "bytes": 443
+      },
+      {
+        "path": "models/main/onnx/tokenizer.json",
+        "bytes": 17082730
+      }
+    ],
+    "lib64_symlink_preserved": true,
+    "disk_usage": "1103671296\t/root/autodl-active",
+    "prior_standalone_http_inference": "passed; not repeated",
+    "new_model_inference_performed": false,
+    "compute_mode": "no GPU; migration checks only",
+    "autostart": "Same launcher verified on U2Net restored image; no additional per-app reboot test",
+    "platform_image_saved": false,
+    "restored_image_verified": false,
+    "published": false
+  },
+  "platform_image_saved": true,
+  "restored_image_verified": false,
+  "published": false,
+  "image_uuid": "image-a57a7bbe3d",
+  "image_name": "autodl-e5-20261111",
+  "image_size_gb": 1.74,
+  "review_submitted": true,
+  "review_status": "pending",
+  "review_checked_at": "2026-11-12T00:26:51.7258864+08:00",
+  "community_url": "https://www.autodl.art/i/zw2029181901/autodl-e5/E5-DocumentSearch"
+}
